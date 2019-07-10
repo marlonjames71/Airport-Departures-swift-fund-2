@@ -194,7 +194,7 @@ func printDepartures2(departureBoard: DepartureBoard) {
 			dateStr = "---"
 		}
 		
-		print("Destination: \(flight.airportDestination.destination) Airline: \(flight.airline) Flight: \(flight.flightNumber) Time: \(dateStr) Terminal: \(terminalStr)")
+		print("Destination: \(flight.airportDestination.destination) Airline: \(flight.airline) Flight: \(flight.flightNumber) Time: \(dateStr) Terminal: \(terminalStr) Flight Status: \(flight.flightStatus.rawValue)")
 	}
 }
 
